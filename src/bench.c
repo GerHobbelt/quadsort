@@ -85,7 +85,7 @@ const char *sorts[] = { "*", "qsort", "quadsort" };
   #include "antiqsort.c"
 #endif
 
-//typedef int CMPFUNC (const void *a, const void *b);
+//typedef int CMPFUNC(const void *a, const void *b);
 
 typedef void SRTFUNC(void *array, size_t nmemb, size_t size, CMPFUNC *cmpf);
 
